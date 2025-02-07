@@ -46,6 +46,9 @@ JENKINS AND JAVA INSTALLATION ON LINUX EC2 INSTANCE
 ~ Installing Java
 	sudo amazon-linux-extras install java-openjdk11 -y
 
+(sudo amazon-linux-extras enable corretto
+sudo yum install -y java-17-amazon-corretto)
+
 	java -version
 
 ~ Install Jenkins:
